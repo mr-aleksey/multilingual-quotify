@@ -1,0 +1,18 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore output directory
+lib/
+
+# Ignore test output
+coverage/
+
+# Ignore logs
+*.log
+
+# Ignore dotenv files
+.env
+.env.*
+
+# macOS system files
+.DS_Store

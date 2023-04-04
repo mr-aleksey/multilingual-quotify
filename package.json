@@ -1,0 +1,38 @@
+{
+  "name": "multilingual-quotify",
+  "version": "1.0.0",
+  "description": "A library for wrapping strings in language-specific quotes based on locale and quote type.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Aleksey Nekrasov <for.nekrasov@ya.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mr-aleksey/multilingual-quotify.git"
+  },
+  "keywords": [
+    "quotes",
+    "quotation marks",
+    "localization",
+    "internationalization",
+    "i18n",
+    "l10n",
+    "multilingual",
+    "language-specific",
+    "text processing",
+    "string manipulation",
+    "typescript",
+    "javascript"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.3"
+  }
+}
